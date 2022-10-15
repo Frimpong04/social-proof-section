@@ -17,3 +17,130 @@ html {
     --light-greyish-magenta:  hsl(300, 24%, 96%);
     --white :  hsl(0, 0%, 100%);
 }
+
+body {
+    font-family: var(--league-spartan);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    /* border: 1px solid red; */
+}
+h1 {
+    font-size: 5.8rem;
+}
+
+
+main {
+    /* border: 1px solid blue; */
+    width:98rem;
+    padding:2em;
+}
+/* HEADING COMPONENT STYLES */
+.text-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-between ;
+    /* border:1px solid green; */
+}
+
+.heading-text {
+    flex: 1 1 40rem;
+    margin-right:2em;
+}
+.heading-text p {
+    font-size: 2rem;
+    padding:1em 0em;
+}
+
+.rating-container {
+    flex: 1 1 40rem;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* align-items: center; */
+    padding:2em 0;
+}
+
+.rating {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    background-color: gray;
+    margin: 0.5em;
+    border-radius:0.5rem;
+    width: 35rem;
+    padding:1em;
+}
+.rating p {
+    font-size:1.6rem;
+}
+.rating-2 {
+    position: relative;
+    left: 6rem;
+}
+
+.rating-3 {
+    position: relative;
+    left: 12rem;
+}
+.star-container {
+    margin-right:2em;
+}
+.star-container img {
+    margin-right:0.3em;
+}
+/* CARD COMPONENT STYLES */
+.card-container {
+    display: flex;
+    /* align-items: center; */
+    flex-wrap: wrap;
+    margin-top: 2em;
+}
+
+.card {
+    flex: 1 1 20rem;
+    border:1px solid red;
+    padding: 2em;
+    border-radius: 1rem;
+    margin-top: 2em;
+}
+
+.card-1,
+.card-2 {
+    margin-right: 2em;
+}
+
+.card-2 {
+    position: relative;
+    top: 0.5rem;
+}
+
+.card-3 {
+    position: relative;
+    top: 1rem;
+}
+.card p {
+    font-size:1.3rem;
+    font-weight: 500;
+}
+.avatar {
+    display: flex;
+    align-items:center;
+    margin-bottom: 3em;
+}
+
+.avatar h2 {
+    font-size: 2rem;
+}
+.avatar p {
+    font-size:1.8rem;
+}
+
+.avatar img {
+    width: 5rem;
+    height:5rem;
+    border-radius: 50%;
+    margin-right:1em;
+}
